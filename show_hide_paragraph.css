@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+div {
+  background-color: #f6f6f6;
+  width: 300px;
+  aspect-ratio: 3/2;
+  display: grid;
+  place-content: center;
+  letter-spacing: 1.4px;
+  margin: 20px auto;
+  & button {
+    letter-spacing: 1.4px;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 6px 15px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    border: none;
+    background-color: #029885;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+  }
+  & button:hover {
+    background-color: #087264;
+  }
+  & p {
+    background-color: #0cbff0;
+    padding: 1rem;
+    color: white;
+    font-size: 20px;
+  }
+}
